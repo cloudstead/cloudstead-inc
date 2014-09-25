@@ -1,0 +1,12 @@
+[submodule "cloudos"]
+	path = cloudos
+	url = git@github.com:cloudstead/cloudos.git
+[submodule "cloudstead-server"]
+	path = cloudstead-server
+	url = git@github.com:cloudstead/cloudstead-server.git
+[submodule "cloudstead-apps"]
+	path = cloudstead-apps
+	url = git@github.com:cloudstead/cloudstead-apps.git
+[submodule "appstore-server"]
+	path = appstore-server
+	url = git@github.com:cloudstead/appstore-server.git
