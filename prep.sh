@@ -1,1 +1,1 @@
-./cloudos/prep.sh
+cloudos/prep.sh
