@@ -14,11 +14,8 @@ A deployable piece of code. Each of the java webapps is a deployable artifact, a
 #### bundle
 An artifact that represents a CloudOs app. Create bundles with the CloudOs Bundler (cbundle_app or cbundler)
 
-#### cbundle_app
-A script that will bundle up one CloudOs app. The resulting bundle file will be written to app-dir/target/appname-bundle.tar.gz
-
-#### cbundler
-A script that bundles up every CloudOs app found within a directory hierarchy.
+#### cbundle
+The CloudOs App Bundler. A script that will bundle up one CloudOs app. The resulting bundle file will be written to app-dir/target/appname-bundle.tar.gz
 
 #### cloudos-server
 Java webapp that runs on each cloudstead instance. It is responsible for overall management of the cloudstead and its apps.
@@ -35,6 +32,9 @@ whether to connect that dns-server to a Dyn account or a local djbdns server.
 
 #### manifest
 A cloudos-manifest.json file. Defines a CloudOs app.
+
+#### mcbundle
+The CloudOs App Multi-Bundler. A script that bundles up every CloudOs app found within a directory hierarchy.
 
 #### prep.sh
 The script that prepares and deploys artifacts.
