@@ -20,6 +20,12 @@ The CloudOs App Bundler. A script that will bundle up one CloudOs app. The resul
 #### cloudos-server
 Java webapp that runs on each cloudstead instance. It is responsible for overall management of the cloudstead and its apps.
 
+#### Cloudstead
+In the capitalized form, this refers to Cloudstead, Inc., the makers of CloudOs
+
+#### cloudstead
+In its lowercase form, a cloudstead is a running CloudOs instance.
+
 #### cloudstead-server
 Java webapp that runs the "launcher" app, allowing people to launch new cloudsteads. This is the primary webapp that runs
 on cloudstead.io
