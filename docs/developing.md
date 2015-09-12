@@ -45,11 +45,11 @@ Developing on the Cloudstead Codebase
 
     # Run a full build/install of cloudos
     cd cloudos
-    mvn -DskipTests=true -P complete install
+    mvn -DskipTests=true -Dcheckstyle.skip=true -P complete install
 
     # Build all cloudstead-inc components
     cd ~/cloudstead-inc
-    mvn -DskipTests=true package
+    mvn -DskipTests=true -Dcheckstyle.skip=true package
 
 
 # Deploying Artifacts
